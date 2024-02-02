@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f588;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 140vh;
+    background-image: url("/image/WhatsApp\ Image\ 2024-02-01\ at\ 10.52.43\ PM.jpeg");
+}
+
+.container {
+    background-color: #ffffff7b;
+    padding: 100px;
+    border-radius: 0px;
+    margin: 50px 50px 50px 50px;
+}
+
+h2 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 1px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+#togglePassword {
+    position: relative;
+    top: -40px;
+    left: 220px;
+    cursor: pointer;
+}
+
+
+.reg {
+    background-color: #18c521;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.google {
+    background-color: none;
+    color: #18c521;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    background-color: none;
+}
+
+button.google {
+    background-color: #4285F4;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.google-icon {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+
+.register-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none; /* Set background to none to take the color of the background page */
+    border: 1.5px solid green; /* Add a green border */
+    padding: 10px 20px; /* Adjust padding as needed */
+    margin-top: 25px; 
+    width: 100%;
+    border-radius: 8px;
+    color: green;
+}
+
+.google-icon {
+    color: #4285F4; /* Colored Google icon */
+    margin-left: 10px; /* Add margin to separate the icon from text */
+    justify-content: space-between;
+}
+
+.register-button i {
+    order: 2; /* Set the order to 2 to move the icon to the right */
+}
+
+.google-icon {
+    color: #4285F4; /* Colored Google icon */
+    margin-left: 10px;
+}
+
+.login-text {
+    margin-top: 10px; /* Adjust margin as needed */
+}
+
+.login-link {
+    color: green; 
+    text-decoration: none; 
+}
+
+.login-link:hover {
+    text-decoration: underline; 
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    /* Adjust styling for smaller screens */
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+}
